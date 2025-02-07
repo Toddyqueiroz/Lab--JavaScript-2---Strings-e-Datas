@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Programação de Clientes Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Exercícios de Programação de Clientes Web</h1>
+
+    <!-- Exercício 1 -->
+    <div class="exercise">
+        <h2>1. Inverter os Caracteres da Frase</h2>
+        <input type="text" id="fraseInput" placeholder="Digite sua frase" />
+        <button onclick="inverterFrase()">Inverter Frase</button>
+        <p class="result" id="resultado1"></p>
+    </div>
+
+    <!-- Exercício 2 -->
+    <div class="exercise">
+        <h2>2. Marcar as Vogais em Negrito</h2>
+        <input type="text" id="fraseVogaisInput" placeholder="Digite sua frase" />
+        <button onclick="marcarVogaisNegrito()">Marcar Vogais</button>
+        <p class="result" id="resultado2"></p>
+    </div>
+
+    <!-- Exercício 3 -->
+    <div class="exercise">
+        <h2>3. Contar Palavras e Ocorrências</h2>
+        <textarea id="textoInput" placeholder="Digite seu texto"></textarea>
+        <button onclick="contarPalavras()">Contar Palavras</button>
+        <table id="resultado3" class="result"></table>
+    </div>
+
+    <!-- Exercício 4 -->
+    <div class="exercise">
+        <h2>4. Palavra de Maior Ocorrência</h2>
+        <textarea id="textoMaiorInput" placeholder="Digite seu texto"></textarea>
+        <button onclick="palavraMaisFrequente()">Ver Palavra Mais Frequente</button>
+        <p class="result" id="resultado4"></p>
+    </div>
+
+    <!-- Exercício 5 -->
+    <div class="exercise">
+        <h2>5. Substituir Texto</h2>
+        <input type="text" id="procurarInput" placeholder="Procurar" />
+        <input type="text" id="substituirInput" placeholder="Substituir" />
+        <textarea id="textoSubstituirInput" placeholder="Digite seu texto"></textarea>
+        <button onclick="substituirTexto()">Substituir</button>
+        <p class="result" id="resultado5"></p>
+    </div>
+
+    <!-- Exercício 6 -->
+    <div class="exercise">
+        <h2>6. Calcular Dias de Vida</h2>
+        <input type="date" id="dataNascimentoInput" />
+        <button onclick="calcularDiasDeVida()">Calcular Dias de Vida</button>
+        <p class="result" id="resultado6"></p>
+    </div>
+
+    <!-- Exercício 7 -->
+    <div class="exercise">
+        <h2>7. Escrever a Data por Extenso</h2>
+        <input type="date" id="dataExtensoInput" />
+        <button onclick="dataPorExtenso()">Escrever Data por Extenso</button>
+        <p class="result" id="resultado7"></p>
+    </div>
+
+    <!-- Exercício 8 -->
+    <div class="exercise">
+        <h2>8. Distância Entre Duas Datas em Semanas</h2>
+        <input type="date" id="data1Input" />
+        <input type="date" id="data2Input" />
+        <button onclick="calcularSemanasEntreDatas()">Calcular Semanas</button>
+        <p class="result" id="resultado8"></p>
+    </div>
+
+    <!-- Exercício 9 -->
+    <div class="exercise">
+        <h2>9. Classificação de Senha</h2>
+        <input type="text" id="senhaInput" placeholder="Digite sua senha" />
+        <button onclick="classificarSenha()">Classificar Senha</button>
+        <p class="result" id="resultado9"></p>
+    </div>
+
+    <!-- Exercício 10 -->
+    <div class="exercise">
+        <h2>10. Codificação TENIS/POLAR</h2>
+        <input type="text" id="fraseCodificarInput" placeholder="Digite sua frase" />
+        <button onclick="codificarTenisPolar()">Codificar Frase</button>
+        <p class="result" id="resultado10"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
